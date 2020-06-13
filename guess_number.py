@@ -1,6 +1,6 @@
-input("Please think of a number between 0 and 100!")
+print("Please think of a number between 0 and 100!")
 answer = ""
-low = 1
+low = 0
 high = 100
 number = int((low + high) / 2)
 while answer != "c":
@@ -15,5 +15,5 @@ while answer != "c":
     elif answer == "c":
         break
     else:
-        print("try again")
+        print("Sorry, I did not understand your input.")
 print("Game over. Your secret number was: ", number)
